@@ -158,7 +158,7 @@ body {
     .main-body {
         grid-template-rows:repeat(5,1fr);
         grid-template-columns: repeat(2,1fr);
-        margin-bottom: 33rem;
+        margin-bottom: 40rem;
     }
 
     .box {
@@ -209,7 +209,7 @@ body {
     .main-body {
         grid-template-rows:repeat(9,1fr);
         grid-template-columns: repeat(1,1fr);
-        margin-bottom: 87rem;
+        margin-bottom: 90rem;
     }
 
     .box {
