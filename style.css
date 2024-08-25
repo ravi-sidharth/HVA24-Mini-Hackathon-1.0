@@ -62,6 +62,7 @@ body {
     color: #E84848;
     font-size: 1.5rem;
     font-family: "Inria Sans";
+    margin-bottom: 2vh;
    
 }
 
@@ -180,10 +181,6 @@ body {
 
     }
 
-    .search-bar input {
-        padding-left: 1.7rem;
-     }
-
     .search-bar {
         height: 5%;
     }
@@ -223,16 +220,6 @@ body {
         height: 3%;
     }
 
-    .search-bar input {
-        font-size: 1rem;
-        width: 280px;
-    }
-
-    .search-bar span {
-        font-size: 1rem;
-        padding: .8rem;
-    }
-
     .bottom-container {
         height: 3%; 
     }
@@ -240,7 +227,7 @@ body {
     .main-body {
         grid-template-rows:repeat(9,1fr);
         grid-template-columns: repeat(1,1fr);
-        margin-bottom: 93rem;
+        margin-bottom: 98rem;
     }
 
     .box {
@@ -265,16 +252,16 @@ body {
         width: 1.5rem;
     }
 
+    .search-bar input {
+        width: 250px;
+    }
+
     .body-heading {
         font-size: 1rem;
     }
-    
-    .search-bar {
-        height: 3%;
-    }
 
     .main-body {
-        margin-bottom: 97rem;     
+        margin-bottom: 102rem;     
     } 
 
     .bottom-container p {
@@ -288,10 +275,6 @@ body {
     }  
 
     .search-bar input {
-        width: 240px;
-    }
-
-    .main-body {
-        margin-bottom: 95rem;     
+        width: 230px;
     }
 }
