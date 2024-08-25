@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 6vw;
+    font-family: "Iowan Old Style";
 }
 .heading span img {
     width: 5rem;
@@ -60,6 +61,7 @@ body {
     margin: 0  auto 1% auto;
     color: #E84848;
     font-size: 1.5rem;
+    font-family: "Inria Sans";
    
 }
 
@@ -79,15 +81,17 @@ body {
 
 .box h3 {
     padding: .5rem 0 1rem 0;
-    line-height: 80%;
-    font-size: 1.7rem;
-    color: #3C3030;
+    line-height: 90%;
+    font-size: 1.6rem;
+    color: #3c3030e8;
+    font-family: "Inknut Antiqua";
 }
 
 .box p {
     margin: .5rem 0 1rem 0;
     color: #3C3030;
     font-size: 1.1rem;
+    font-family: Inter;
 }
 
 .box a {
@@ -224,7 +228,6 @@ body {
     .search-bar span {
         font-size: 1rem;
         padding: .8rem;
-
     }
 
     .bottom-container {
@@ -234,7 +237,7 @@ body {
     .main-body {
         grid-template-rows:repeat(9,1fr);
         grid-template-columns: repeat(1,1fr);
-        margin-bottom: 90rem;
+        margin-bottom: 93rem;
     }
 
     .box {
@@ -268,7 +271,7 @@ body {
     }
 
     .main-body {
-        margin-bottom: 90rem;     
+        margin-bottom: 97rem;     
     } 
 
     .bottom-container p {
@@ -286,7 +289,6 @@ body {
     }
 
     .main-body {
-        margin-bottom: 80rem;     
+        margin-bottom: 95rem;     
     }
-    
 }
