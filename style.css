@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6vw;
+    font-size: 6rem;
     font-family: "Iowan Old Style";
 }
 .heading span img {
@@ -40,9 +40,10 @@ body {
 .search-bar input {
     font-size: 2rem;
     width: 400px;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     background-image: url(./Frame\ 15.svg);
-    background-position: 0%;
+    background-position: 4%;
+    background-size: 3rem;
     background-repeat: no-repeat;
     border: 2px solid #ccc;
     border-right: none;
@@ -50,8 +51,8 @@ body {
 
 
 .search-bar span {
-    font-size: 1.6rem;
-    padding: 1.34rem;
+    font-size: 1.8rem;
+    padding: 1.22rem;
     background-color: #E84848;
     color: white;
 }
@@ -139,7 +140,7 @@ body {
 
     .search-bar input {
         width: 280px;
-        padding: .7rem 2rem;
+        padding: .7rem 4rem;
     }
     
     
