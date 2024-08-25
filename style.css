@@ -27,7 +27,7 @@ body {
 }
 
 .hr {
-    margin: .4% 0;
+    margin: .5vh 0;
 }
 
 .search-bar {
@@ -81,8 +81,11 @@ body {
 
 .box h3 {
     padding: .5rem 0 1rem 0;
-    line-height: 90%;
-    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    font-size: 1.7rem;
+    letter-spacing: -1px;
     color: #3c3030e8;
     font-family: "Inknut Antiqua";
 }
