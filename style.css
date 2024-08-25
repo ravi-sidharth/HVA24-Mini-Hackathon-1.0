@@ -38,18 +38,19 @@ body {
 
 .search-bar input {
     font-size: 2rem;
-    width: 250px;
-    padding: .7rem 2rem;
+    width: 400px;
+    padding: 1rem 2rem;
     background-image: url(./Frame\ 15.svg);
     background-position: 0%;
     background-repeat: no-repeat;
     border: 2px solid #ccc;
+    border-right: none;
 }
 
 
 .search-bar span {
     font-size: 1.6rem;
-    padding: 1.1rem;
+    padding: 1.34rem;
     background-color: #E84848;
     color: white;
 }
@@ -126,6 +127,19 @@ body {
     .main-container {
         min-width: 1024px;
 
+    }
+
+    .search-bar input {
+        width: 280px;
+        padding: .7rem 2rem;
+    }
+    
+    
+    .search-bar span {
+        font-size: 1.6rem;
+        padding: 1rem;
+        background-color: #E84848;
+        color: white;
     }
     .heading {
         height:5%;
