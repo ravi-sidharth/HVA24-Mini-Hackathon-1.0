@@ -21,6 +21,9 @@ body {
     align-items: center;
     font-size: 6vw;
 }
+.heading span img {
+    width: 5rem;
+}
 
 .hr {
     margin: .4% 0;
@@ -36,12 +39,17 @@ body {
 .search-bar input {
     font-size: 2rem;
     width: 250px;
-    padding: .7rem;
+    padding: .7rem 2rem;
+    background-image: url(./Frame\ 15.svg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    border: 2px solid #ccc;
 }
 
+
 .search-bar span {
-    font-size: 1.5rem;
-    padding: 1.2rem;
+    font-size: 1.6rem;
+    padding: 1.1rem;
     background-color: #E84848;
     color: white;
 }
@@ -105,6 +113,7 @@ body {
 
 .bottom-container p {
     font-size: 1.2rem;
+    color:#3C3030 ;
 }
 
 .bottom-container img {
@@ -126,7 +135,7 @@ body {
     .heading span img {
         width: 2rem;
     }
-     
+    
     .search-bar {
         height: 10%;
     }
@@ -149,6 +158,10 @@ body {
         min-width: 768px;
 
     }
+
+    .search-bar input {
+        padding-left: 1.7rem;
+     }
 
     .search-bar {
         height: 5%;
@@ -192,7 +205,6 @@ body {
     .search-bar input {
         font-size: 1rem;
         width: 280px;
-        padding: .7rem;
     }
 
     .search-bar span {
@@ -223,7 +235,7 @@ body {
 
 @media (max-width:375px) {
     .main-container {
-        min-width: 375px;
+        min-width: 360px;
     }
     .heading {
         height:2%;
