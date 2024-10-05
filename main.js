@@ -45,7 +45,13 @@ const searchInput = document.querySelector('#search-input');
 const submitBtn = document.querySelector('#submit-btn');
 
 submitBtn.addEventListener('click',()=> {
-    const query = searchInput.value ;
-    fetchNews(query)
+    const query = searchInput.value;
+    fetchNews(query);
 })
+
+// searchInput.value.addEventListener('onclick', ()=> {
+//     searchInput.value=""
+// })
+
+
 
