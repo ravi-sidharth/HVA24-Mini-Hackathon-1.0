@@ -49,9 +49,9 @@ submitBtn.addEventListener('click',()=> {
     fetchNews(query);
 })
 
-// searchInput.value.addEventListener('onclick', ()=> {
-//     searchInput.value=""
-// })
+searchInput.addEventListener('click',()=> {
+    searchInput.value="";
+})
 
 
 
