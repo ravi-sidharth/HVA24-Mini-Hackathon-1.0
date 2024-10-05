@@ -11,11 +11,11 @@ body {
 }
 
 .main-container {
-    min-width: 1850px;
+    min-width: 1450px;
 }
 
 .heading {
-    height: 15%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .search-bar {
-    height: 15%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,12 +73,11 @@ body {
     display: grid;
     grid-template-rows:repeat(3,1fr);
     grid-template-columns: repeat(3,1fr);
-    gap: 7%;
+    gap:5rem;
     margin-bottom: 15rem; 
 }
 
-.box img {
-    
+.box img { 
     width: 100%;
 }
 
@@ -136,7 +135,6 @@ body {
  @media (max-width:1024px) {
     .main-container {
         min-width: 1024px;
-
     }
 
     .search-bar input {
@@ -152,7 +150,7 @@ body {
         color: white;
     }
     .heading {
-        height:5%;
+        height:100px;
         font-size: 3rem;
     }
 
@@ -161,7 +159,7 @@ body {
     }
     
     .search-bar {
-        height: 10%;
+        height: 100px;
     }
     .main-body{
         width: 90%;
@@ -170,21 +168,12 @@ body {
     .body-heading {
         margin-left: 5%;
     }
-
-     
-
-
 } 
-
 
 @media (max-width:768px) {
     .main-container {
         min-width: 768px;
 
-    }
-
-    .search-bar {
-        height: 5%;
     }
 
     .main-body {
@@ -204,14 +193,13 @@ body {
 
 }
 
-
-@media (max-width:425px) {
+@media (max-width:426px) {
     .main-container {
         min-width: 425px;
 
     }
     .heading {
-        height:3%;
+        /* height:30px; */
         font-size: 2rem;
     }
     
@@ -219,11 +207,11 @@ body {
         width: 1.4rem;
     }
     .search-bar {
-        height: 3%;
+        /* height: 30px; */
     }
 
     .bottom-container {
-        height: 3%; 
+        height: 30px; 
     }
 
     .main-body {
@@ -233,7 +221,7 @@ body {
     }
 
     .box {
-        margin-bottom: -8rem;
+        /* margin-bottom: 8rem; */
     }
 
     .bottom-container p {
@@ -246,9 +234,9 @@ body {
     .main-container {
         min-width: 360px;
     }
-    .heading {
-        height:2%;
-    }
+    /* .heading {
+        height:20px;
+    } */
 
     .heading span img {
         width: 1.5rem;

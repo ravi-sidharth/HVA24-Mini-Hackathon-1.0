@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
-
     <link
         href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
-
     <link
         href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-
-
-
 </head>
 
 <body>
@@ -35,13 +28,17 @@
         <hr class="hr">
 
         <div class="search-bar">
-            <input type="text" placeholder=" Search">
-            <span>Go</span>
+            <input id="search-input" type="text" placeholder=" Search">
+            <span id="submit-btn">Go</span>
         </div>
         <h1 class="body-heading">TOP NEWS FROM INDIA</h1>
-        <div class="main-body">
+        <main>
+            <div class="main-body" id="main-id-news">
+            </div>
+        </main>
 
-            <div class="box">
+
+            <!-- <div class="box">
                 <img src="./1.png" alt="Image 1">
                 <h3>Echoes of Defeat:A Personal Reflection on India's 2023 World Cup Loss</h3>
                 <p>The first one read, "India's loss in the 2023 World Cup final has echoes of West Indies' defeat in
@@ -113,18 +110,27 @@
                     India. The accident took place on 2 ...
                 </p>
                 <a href="#">Read full article <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+            </div> -->
 
-        </div>
-
-        <hr>
-        
+            <template id="template-id-card">
+                <div class="box">
+                    <img src="./9.png" alt="Image 1">
+                    <h3>Odisha train accident: Fifty bodies unclaimed weeks after India crash</h3>
+                    <p>More than 50 bodies remain unclaimed a month after a deadly train crash killed at least 293 people in
+                        India. The accident took place on 2 ...
+                    </p>
+                    <a href="#" target="_blank">Read full article <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </template>
+            
+        <!-- <hr>
         <div class="bottom-container">
             <p>NewsAPI<img src="./Ellipse 1.svg" alt="elipse">Org is not responsible for the content of external sites
             </p>
-        </div>
+        </div> -->
 
     </div>
+    <script src="./main.js"></script>
 </body>
 
 </html>
